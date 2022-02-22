@@ -20,20 +20,18 @@ const books = [
   },
 ];
 
-const BookList = () => {
-  return (
-    <>
-      <ul>
-        {books.map((book) => (
-          <li key={book.id} >
-            <Book bookInfo={book} />
-            <button>remove</button>
-          </li>
-        ))}
-      </ul>
-      <Form />
-    </>
-  );
-}
- 
+const BookList = () => (
+  <>
+    <ul>
+      {books.map((book) => (
+        <li key={book.id}>
+          <Book bookInfo={book} />
+          <button type="button">remove</button>
+        </li>
+      ))}
+    </ul>
+    <Form />
+  </>
+);
+
 export default BookList;

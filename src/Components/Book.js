@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Book = ({bookInfo}) => {
+const Book = ({ bookInfo }) => {
   const {
-    title, author
+    title, author,
   } = bookInfo;
   return (
     <div>
       <h3>{title}</h3>
-      <p>{author}</p>  
+      <p>{author}</p>
     </div>
   );
-}
- 
+};
+
 export default Book;
