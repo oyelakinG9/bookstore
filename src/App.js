@@ -6,7 +6,6 @@ import BookList from './Components/BookList';
 import Categories from './Components/Categories';
 
 function App() {
-  // render() {
   return (
     <Router>
       <div className="App">
@@ -30,7 +29,6 @@ function App() {
       </div>
     </Router>
   );
-  // }
 }
 
 export default App;
