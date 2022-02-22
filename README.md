@@ -23,8 +23,6 @@
     `npm start`
 - Create build app\
     `npm run build`
-- Test Linters app\
-    `npm run check-linters`
 - To test app\
      `npm run test`
 ## Author

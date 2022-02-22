@@ -14,7 +14,7 @@ function App() {
           <nav className="nav">
             <ul className="navBar">
               <li className="nav-link">
-                <Link to="booklist">BOOKS</Link>
+                <Link to="/">BOOKS</Link>
               </li>
               <li className="nav-link">
                 <Link to="categories">CATEGORIES</Link>
@@ -23,7 +23,7 @@ function App() {
           </nav>
         </header>
         <Routes>
-          <Route path="booklist" element={<BookList />} />
+          <Route path="/" element={<BookList />} />
           <Route path="categories" element={<Categories />} />
         </Routes>
       </div>
