@@ -14,9 +14,9 @@
 
 ##### Getting Started
 - clone the repository by running\
-    `git clone https://github.com/oyelakinG9/math-magicians.git`
+    `git clone https://github.com/oyelakinG9/bookstore.git`
 - navigate to the folder\
-    `cd math-magicians`
+    `cd bookstore`
 - Install packages\
     `npm install`
 - Run the app\
@@ -26,7 +26,7 @@
 - Test Linters app\
     `npm run check-linters`
 - To test app\
-     `npm run test`    
+     `npm run test`
 ## Author
 
 👤 **Oyelakin Ridwan Adio**
