@@ -1,73 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# BOOK STORE (Componenets)
+> Book store is the react project that provides users book library. It was built with a good UI and easily understand by users. It can use as store books on a website and computer system.
 
-> Description the project.
 
+![Screenshot (96)](https://user-images.githubusercontent.com/61976324/155153453-12b1a72f-0fec-4f2a-963d-ee0321bab121.png)
 
 ## Built With
+- HTML & CSS & JavaScript
+- Html, Css & JavaScript linters
+- React and react-Redux
+- React and react-Redux linters
 
-- Major languages
-- Frameworks
-- Technologies used
+##### Getting Started
+- clone the repository by running\
+    `git clone https://github.com/oyelakinG9/bookstore.git`
+- navigate to the folder\
+    `cd bookstore`
+- Install packages\
+    `npm install`
+- Run the app\
+    `npm start`
+- Create build app\
+    `npm run build`
+- To test app\
+     `npm run test`
+## Author
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+👤 **Oyelakin Ridwan Adio**
+- GitHub: [@oyelakin](https://github.com/oyelakinG9)
+- Twitter: [@oyelakin](https://twitter.com/OyelakinG1)
+- LinkedIn: [@oyelakin](https://www.linkedin.com/in/oyelakin-ridwan-4b4a02b6/)
 
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
+## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
 ## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
+Give a :star:️ if you like this project!
+## :memo: License
 This project is [MIT](./MIT.md) licensed.
