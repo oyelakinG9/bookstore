@@ -19,14 +19,14 @@ const Form = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     dispatch(createBook(bookInfo));
-    setBookInfo({ ...bookInfo, title: '', category: '' });
+    setBookInfo({ author: '', title: '' });
   };
 
   return (
     <section className="add-new-book-section">
       <h2>ADD NEW BOOK</h2>
       <form onSubmit={(e) => onSubmit(e)}>
-        <input onChange={handleChange('title')} type="text" name="title" placeholder="Book title" value={bookInfo.titlt} />
+        <input onChange={handleChange('title')} type="text" name="title" placeholder="Book title" value={bookInfo.title} />
         <input onChange={handleChange('author')} type="text" name="author" placeholder="Author name" value={bookInfo.author} />
         <button onClick={onClick} type="submit">ADD BOOK</button>
       </form>
