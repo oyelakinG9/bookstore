@@ -15,7 +15,7 @@ const BookList = () => {
     <div className="books-page">
       <ul className="book-list">
         {books.map((book) => (
-          <li key={book.id}>
+          <li key={book.item_id}>
             <Book bookInfo={book} />
           </li>
         ))}
