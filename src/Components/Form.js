@@ -6,9 +6,9 @@ import { createBook } from '../redux/Books/Books';
 const Form = () => {
   const dispatch = useDispatch();
   const [bookInfo, setBookInfo] = useState({
-    id: uuidv4(),
+    item_id: uuidv4(),
     title: '',
-    author: '',
+    category: '',
   });
   const handleChange = (name) => (e) => {
     setBookInfo({ ...bookInfo, [name]: e.target.value });
@@ -19,7 +19,7 @@ const Form = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     dispatch(createBook(bookInfo));
-    setBookInfo({ author: '', title: '' });
+    setBookInfo({ title: '', category: '' });
   };
 
   return (
@@ -27,7 +27,7 @@ const Form = () => {
       <h2>ADD NEW BOOK</h2>
       <form onSubmit={(e) => onSubmit(e)}>
         <input onChange={handleChange('title')} type="text" name="title" placeholder="Book title" value={bookInfo.title} />
-        <input onChange={handleChange('author')} type="text" name="author" placeholder="Author name" value={bookInfo.author} />
+        <input onChange={handleChange('category')} type="text" name="category" placeholder="Author name" value={bookInfo.category} />
         <button onClick={onClick} type="submit">ADD BOOK</button>
       </form>
     </section>
