@@ -64,7 +64,7 @@ const booksReducer = (state = initialState, action) => {
       postBook(action.payload);
       return { ...state, books: newArr };
     case REMOVE_BOOK:
-      newArr = state.books.filter((book) => book.id !== action.payload);
+      newArr = state.books.filter((book) => book.item_id !== action.payload);
       deleteBook(action.payload);
       return { ...state, books: newArr };
     default:

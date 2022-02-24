@@ -6,7 +6,7 @@ import { createBook } from '../redux/Books/Books';
 const Form = () => {
   const dispatch = useDispatch();
   const [bookInfo, setBookInfo] = useState({
-    item_id: uuidv4(),
+    item_id: '',
     title: '',
     category: '',
   });
