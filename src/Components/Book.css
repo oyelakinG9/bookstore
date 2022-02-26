@@ -97,7 +97,7 @@
   width: 4.25rem;
   height: 2.438rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
-  font-family: Montserrat;
+  font-family:' Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -112,7 +112,7 @@
   height: 1.125rem;
   margin: 0.438rem 4.938rem 0.75rem 0.75rem;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
