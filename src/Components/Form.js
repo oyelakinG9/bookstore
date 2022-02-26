@@ -28,7 +28,7 @@ const Form = () => {
       <h2 className="add-book">ADD NEW BOOK</h2>
       <form onSubmit={(e) => onSubmit(e)} className="form">
         <input onChange={handleChange('title')} type="text" name="title" placeholder="Book title" value={bookInfo.title} className="title" />
-        <input onChange={handleChange('category')} type="type" name="category" placeholder="category" value={bookInfo.category} className="category" />
+        <input onChange={handleChange('category')} type="text" name="category" placeholder="category" value={bookInfo.category} className="category" />
         <button type="submit" className="add-btn">ADD BOOK</button>
       </form>
     </section>
