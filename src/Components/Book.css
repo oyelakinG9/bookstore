@@ -60,6 +60,8 @@
 
 .card-progress {
   display: flex;
+  align-items: center;
+  color: #121212;
 }
 
 .Percent-Complete {
@@ -91,6 +93,35 @@
   color: var(--black-two);
 }
 
+.progress-info .completed {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
+}
+
+.text-completed {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
+}
+
 .Current-Chapter {
   width: 7.875rem;
   height: 1.125rem;
@@ -110,7 +141,7 @@
   width: 4.25rem;
   height: 2.438rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -135,11 +166,11 @@
 }
 
 .card-chapter .current-chapter {
-  width: 7.875rem;
+  width: 100%;
   height: 1.125rem;
   margin: 0.063rem 5.375rem 0 3.688rem;
   opacity: 0.5;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;

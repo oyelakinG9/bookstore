@@ -31,7 +31,7 @@ const Book = ({ bookInfo }) => {
               {progress}
               %
             </p>
-            <p>Completed</p>
+            <p className="text-completed">Completed</p>
           </div>
         </div>
         <div className="card-chapter">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaUserAlt } from 'react-icons/fa';
 import './Header.css';
 
 const Header = () => (
@@ -15,6 +16,7 @@ const Header = () => (
         </li>
       </ul>
     </nav>
+    <Link to="/profile" className="profile"><FaUserAlt /></Link>
   </header>
 );
 
