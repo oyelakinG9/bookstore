@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchBooks } from '../redux/Books/Books';
 import Book from './Book';
 import Form from './Form';
+import './Booklist.css';
 
 const BookList = () => {
   const dispatch = useDispatch();
@@ -15,7 +16,7 @@ const BookList = () => {
     <div className="books-page">
       <ul className="book-list">
         {books.map((book) => (
-          <li key={book.item_id}>
+          <li key={book.item_id} style={{ listStyle: 'none' }}>
             <Book bookInfo={book} />
           </li>
         ))}

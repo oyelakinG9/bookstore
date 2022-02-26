@@ -1,4 +1,4 @@
-/* * {
+* {
   font-family: sans-serif;
 }
 
@@ -6,9 +6,5 @@ body {
   width: 76%;
   height: 89.625rem;
   padding: 9.313rem 5% 7.688rem 0;
-  background-color: #f5f6fa;
-} */
-
-#root {
   background-color: #f5f6fa;
 }
