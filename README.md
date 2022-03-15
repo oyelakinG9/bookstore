@@ -6,6 +6,8 @@
 
 ![Screenshot (96)](https://user-images.githubusercontent.com/61976324/155153453-12b1a72f-0fec-4f2a-963d-ee0321bab121.png)
 
+[Live Link](https://bookstore-app-oyelakin.netlify.app/)
+
 ## Built With
 - HTML & CSS & JavaScript
 - Html, Css & JavaScript linters
