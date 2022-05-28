@@ -29,11 +29,12 @@ const Form = () => {
       <form onSubmit={(e) => onSubmit(e)} className="form">
         <input onChange={handleChange('title')} type="text" name="title" placeholder="Book title" value={bookInfo.title} className="title" />
         <select onChange={handleChange('category')} type="text" name="category" placeholder="category" value={bookInfo.category} className="category">
-          <option value="categories" className="text-category">categories</option>
-          <option value="volvo">Action</option>
-          <option value="saab">Science fiction</option>
-          <option value="mercedes">Economy</option>
-          <option value="audi">Adventure</option>
+          <optgroup label="categories" className="text-category">
+            <option value="Action">Action</option>
+            <option value="Science fiction">Science fiction</option>
+            <option value="Economy">Economy</option>
+            <option value="Adventure">Adventure</option>
+          </optgroup>
         </select>
         <button type="submit" className="add-btn">ADD BOOK</button>
       </form>
